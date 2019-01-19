@@ -1,0 +1,224 @@
+/*EDITING THE WHOLE BODY*/
+body{
+  margin: 0px;
+  padding: 0px;
+  background: url(images/cool.jpg);
+  font-family: sans-serif;
+
+
+
+}
+/*EDITING THE HEADING PART*/
+.logo{
+  margin-top: 0px;
+  height: 300px;
+  width: 300px;
+  float: left;
+}
+.text1{
+  padding: 30px 0px;
+  margin-top: 0px;
+  background:url(images/back.png);
+  background-size: cover;
+}
+.text1 h1{
+  font-size: 55px;
+  letter-spacing: 0.5em;
+  color: blue;
+  font-family: serif;
+
+}
+.header1{
+  padding: 5px 50px;
+  top: 0px;
+  position: sticky;
+  background-color: lavender;
+  background-repeat: no-repeat;
+  background-image:cover;
+
+}
+.dropdown{
+
+display: inline-block;
+position: relative;
+align-items: stretch;
+position: relative;
+padding: 2px 10px;
+margin-left: 10px;
+}
+
+.dropdown p{
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: thistle;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 150px;
+}
+
+
+.dropdown p:hover{
+    cursor: pointer;
+  background-color: #ffffff;
+}
+.dropdown a{
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+  top: 0px;
+}
+.dropdown a:hover{
+background-color: #87CEFA;
+}
+.dropdown-content{
+  float: left;
+  display: none;
+  margin: 0px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 9px 2px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*EDITING HEADER 2*/
+.header2{
+  margin-top: 40px;
+  padding: 10px;
+
+  height: 400px;
+}
+.header2 h1{
+  text-align: center;
+color:blue;
+}
+.header2 h3{
+  text-align: center;
+color:red;
+}
+.header2 img{
+  height: 400px;
+  width: 500px;
+  float: left;
+}
+/*EDITING THE HEADER 3 OBJECTIVE*/
+.header3{
+  padding: 30px;
+
+}
+.header3 p{
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+  font-size: 20px;
+
+}
+/*EDITING THE SIGNIN PAGES*/
+.body1{
+  background-color: khaki;
+}
+.form{
+  margin-top: 5%;
+  padding: 20px;
+  column-count: 2;
+  column-rule: solid;
+  column-rule-color: blue;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 500px;
+}
+.form input{
+  padding: 10px;
+  width: 400px;
+  margin: 15px 5px;
+}
+.form h1{
+  text-align: center;
+  color: blue;
+}
+/*EDITING THE LOGIN PAGE*/
+.form1{
+  background-color: white;
+  margin-top: 5%;
+  padding: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.form1 input{
+  padding: 10px;
+  width: 400px;
+  margin: 15px 300px;
+}
+.form1 p{
+  text-align: center;
+  font-weight: bold;
+}
+.form1 a{
+  margin-left: 28%;
+
+}
+
+/*EDITING THE GALLERY PART gallery1*/
+.body2{
+  margin: 0px;
+  background: url(images/wood.jpg);
+}
+.gallery1{
+  padding: 15px;
+  margin: 0px;
+  background-color: limegreen;
+}
+.gallery1 h1{
+  color: white;
+  letter-spacing: 20px;
+  font-family: sans-serif, monospace;
+  font-size: 36px;
+}
+.dunstan{
+  float: left;
+}
+.dunstan img{
+  width: 600px;
+}
+.galleryp{
+  float: right;
+}
+.galleryp img{
+  width: 700px;
+  height: 400px;
+}
+.pictureall{
+  margin: 20px;
+
+}
+.pictureall img{
+  margin: 20px;
+  width: 600px;
+
+}
+/*EDITING THE ENTERTAINMENT PAGE*/
+.videos{
+  margin: 10px;
+  position: ;
+
+}
+.videos video{
+width: 400px;
+height: 300px;
+border-style: groove;
+border-color: red;
+border-radius: 30px;
+}
+.videos audio{
+  padding: 20px;
+}
+/*EDITING GALLERY*/
+.pictureall img{
+  border-radius: 50px;
+}
